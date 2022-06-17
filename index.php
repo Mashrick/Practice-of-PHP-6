@@ -12,13 +12,15 @@
 
 
 
-			
-		<!--	Print Fatorial Number using if..else..	-->
+	
+
+			<!--	Print Fatorial Number using if..else..	-->
 
 
 
 		<?php
 
+			echo "Fatorial Number<br><br>";
 
 			function factorial($number) {
 
@@ -52,6 +54,8 @@
 
 		<?php
 
+			echo "Star Pyramid<br><br>";
+
 
 			for($row = 1;$row <= 8; $row++){
 
@@ -81,7 +85,8 @@
 		<?php
 
 
-			
+			echo "Check Vote Age<br><br>";
+
 			function check_vote(){
 
 			    $name = "Mashrick";
@@ -121,7 +126,7 @@
 
 		<?php
 
-
+			echo "Check Number Positive Number, Negative Number, Numeric Value<br><br>";
 			
 			$number = 90;
 
@@ -131,7 +136,7 @@
 
 			} else if ($number < 0){
 
-			    echo $number . " is a negative number ";
+			    echo $number . " is a negative number";
 
 			} else if ($number == 0){
 
@@ -147,8 +152,72 @@
 
 		?>
 
-		
 
+
+		<br>
+		<br>
+
+
+
+
+			<!--	Print (1-100) ODD Numbers using While Loop	-->
+
+
+
+		<?php
+
+
+			echo "Print (1-100) ODD Numbers<br><br>";
+ 
+			$num = 1;
+
+			while ( $num <= 100 ) {
+
+			  print "$num, ";
+
+			  $num += 2;
+
+			}
+
+
+		 
+		?>
+
+
+
+
+		<br>
+		<br>
+
+
+
+
+			<!--	Time's Table using while loop & if...	-->
+
+
+		<?php
+
+			echo "Time's Table<br><br>";
+
+			$t = 5;
+
+
+ 			for ($i = 1; $i <= 10; $i++){
+ 
+			$product = $t * $i;
+			 
+			echo $t . " x " . $i .": " .$product. "<br/>";
+
+			}
+
+
+		 
+		?>
+
+
+
+
+		
 
 		
 
